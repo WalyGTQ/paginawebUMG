@@ -1,0 +1,193 @@
+*, html {
+	padding:0px;
+	margin:	0px;
+}
+body{
+	background: url(degradado1.jpg);
+	width: 100%;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+header{
+    padding:10px;
+    
+    position: absolute; 
+    width: 1300px; 
+    height: 100px;
+
+}
+
+hr{
+    position: absolute; 
+    width: 1300px; 
+    height: 1px;
+    top:110px; 
+    left: 10px;
+
+}
+
+header h1{
+	display: inline;
+	color:white;
+	letter-spacing:8px;
+	font-family: segoe Ui, arial;
+}
+
+#title2{
+    text-align: left;
+    position: relative;
+    width: 460px; 
+    height: 30px;
+    left:850px;
+	bottom:80px;
+	color:white;
+	letter-spacing:8px;
+	font-family: segoe Ui, arial;
+}
+
+#title3{
+    position: relative;
+    width: 460px; 
+    height: 30px;
+    left:850px;
+	bottom:75px;
+	color:white;
+	letter-spacing:8px;
+    font-family: segoe Ui, arial;
+    text-align: left;
+}
+
+#title4{
+    position: relative;
+    width: 460px; 
+    height: 30px;
+    left:460px;
+	top:130px;
+	color:white;
+	letter-spacing:50px;
+    font-family: segoe Ui, arial;
+    text-align: left;
+
+}
+
+#menuLateral{
+    position: absolute; 
+    width: 250px; 
+    height: 320px; 
+    padding: 10px; 
+    background-color: saddlebrown; 
+    top:150px; 
+    left: 10px;
+    border-radius:10px;
+    background:#24242430;
+    
+}
+
+#menuLateral ul{
+    list-style:none;
+}
+
+#menuLateral ul li{
+    padding: 7px;
+    text-align: center;
+}
+
+#menuLateral ul li a{
+    font-family: segoe Ui, arial;
+	text-decoration:none;
+	color: ivory;
+	font-weight:ligther;
+	padding:5px 10px;
+	background:#24242430;
+	border-radius:10px;
+    letter-spacing:10px;
+    font-size: 10px;
+    
+	
+}
+
+
+
+footer{
+    text-align: center;
+    color:white;
+    position: absolute; 
+    width: 1300px; 
+    height: 90px; 
+    padding: 10px; 
+    background-color: saddlebrown; 
+    top:550px; 
+    left: 10px;
+    border-radius:10px;
+    background:#24242430;
+    font-family: segoe Ui, arial;
+
+}
+footer p{
+    padding: 5px;
+    font-weight: bold;
+}
+
+#menuLateral ul li a:hover{
+	background:orange;
+	border-radius:10px;
+}
+
+#imagen0{
+    position: absolute; 
+    width: 330px; 
+    height: 240px; 
+    top:200px; 
+    left: 400px;
+    background:#24242430;
+    border-radius:40px;
+
+}
+#imagen1{
+    position: absolute; 
+    width: 330px; 
+    height: 240px; 
+    top:200px; 
+    left: 850px;
+    background:#24242430;
+    border-radius:40px;
+
+}
+
+.imagenes{
+    border-radius: 40px;
+}
+
+.parrafo1{
+    text-align: center;
+    color:white;
+    position: absolute; 
+    width: 330px; 
+    height: 90px; 
+    background-color: black; 
+    top:450px; 
+    left: 400px;
+    border-radius:10px;
+    font-family: segoe Ui, arial;
+    font-size: 20px;
+    letter-spacing:10px;
+
+}
+
+.parrafo2{
+    text-align: center;
+    color:white;
+    position: absolute; 
+    width: 330px; 
+    height: 90px; 
+    background-color: black; 
+    top:450px; 
+    left: 850px;
+    border-radius:10px;
+    font-family: segoe Ui, arial;
+    font-size: 20px;
+    letter-spacing:10px;
+
+}
